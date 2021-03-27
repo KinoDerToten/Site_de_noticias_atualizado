@@ -10,29 +10,42 @@ body{
 	font: 1em Arial, Helvetica, sans-serif;
 }
 
+/*layout barra topo*/
+
 #top-bar{
-
 }
 
-#container{
-	width: 1195px;
-	margin: 0 auto;
-	padding: 10px;
-}
 
 #date{
 	float: left;
-	font-size: 0.9em;
 }
 
-#social-icons{
+#social-icons, #search-bar{
 	float: right;
 }
 
-#logo-bar{
+/* fechameento layout barra topo*/
 
+#logo-bar, #menu{
+	background: red;
+	border-bottom: 1px solid white;
 }
 
-#container-logo{
+#container-menu{
+	
+}
+
+
+.tamanho{
+	width: 1195px;
+	margin: 0 auto;
+}
+
+
+.clear{
 	clear: both;
+}
+
+.font{
+	font-size: 0.9em;
 }
