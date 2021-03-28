@@ -11,8 +11,8 @@ body{
 }
 
 /*layout barra topo*/
-
 #top-bar{
+	padding: 5px;
 }
 
 
@@ -24,15 +24,41 @@ body{
 	float: right;
 }
 
+#search-bar{
+	padding: 8px 0px 15px 0px;
+}
 /* fechameento layout barra topo*/
 
+
+/* abertura do menu e do logo bar */
 #logo-bar, #menu{
 	background: red;
 	border-bottom: 1px solid white;
 }
 
-#container-menu{
-	
+/*fechamento do menu e do logo bar*/
+
+
+/*formatação dos links*/
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 0.9em;
+}
+
+#container-menu a:link, #container-menu a:visited{
+	color: #FFF;
+	padding: 8px;
+	margin-left: 17px;
+}
+
+#container-menu a:hover{
+	color: red;
+	background: #FFF;
+}
+
+#menu{
+	padding: 10px 0px 15px 0px;
 }
 
 
