@@ -1,20 +1,21 @@
 /*aplicando formatações gerais
 */
-
 *{
 	margin: 0;
 	padding: 0;
 }
+/*aplicando formatações gerais
+*/
 
 body{
 	font: 1em Arial, Helvetica, sans-serif;
 }
 
-/*layout barra topo*/
-#top-bar{
-	
-}
+/*
+**** formatando o layout do topo ****
+*/
 
+/*layout top-bar*/
 #container-top{
 	padding-top: 10px;
 }
@@ -27,14 +28,10 @@ body{
 #social-icons, #search-bar{
 	float: right;
 }
-
-#search-bar{
-	
-}
 /* fechameento layout barra topo*/
 
 
-/* abertura do menu e do logo bar */
+/* abertura do layout logo-bar */
 #logo-bar, #menu{
 	background: red;
 	border-bottom: 1px solid white;
@@ -43,8 +40,7 @@ body{
 #container-logo{
 	padding-top: 7px;
 }
-
-/*fechamento do menu e do logo bar*/
+/*fechamento do layout logo-bar*/
 
 
 /*formatação dos links*/
@@ -64,7 +60,9 @@ a{
 	background: #FFF;
 	padding: 10.5px 10px 14px 10px;
 }
+/*fechamento da formatacao dos links*/
 
+/*formatações gerais*/
 #container-menu{
 	width: 1201px;
 	margin: 0 auto;
@@ -86,3 +84,8 @@ a{
 .font{
 	font-size: 0.9em;
 }
+/*fechamento das formataçoes gerais*/
+
+/*
+**** fechamento do layout do topo ****
+*/
