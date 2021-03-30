@@ -8,7 +8,7 @@
 */
 
 body{
-	font: 1em Arial, Helvetica, sans-serif;
+	font: 1em Roboto, Arial, sans-serif;
 }
 
 /*
@@ -60,7 +60,7 @@ a{
 	background: #FFF;
 	padding: 10.5px 10px 14px 10px;
 }
-/*fechamento da formatacao dos links*/
+/*fechamento da formatação dos links*/
 
 /*formatações gerais*/
 #container-menu{
@@ -84,8 +84,49 @@ a{
 .font{
 	font-size: 0.9em;
 }
-/*fechamento das formataçoes gerais*/
+/*fechamento das formatações gerais*/
 
 /*
 **** fechamento do layout do topo ****
 */
+
+
+
+#area-principal{
+	border: 1px solid purple;
+	width: 700px;
+	margin-top: 20px;
+}
+
+#redator-sociais{
+	width: 700px;
+	margin-bottom: 20px;
+}
+
+#policia a:link, #policias a:visited{
+	margin-top: 25px;
+	display: inline-block;
+	background: red;
+    color: white;
+    padding: 3px 10px;
+    font-size: 1em;
+}
+
+#autor{;
+	font-size: 0.72em;
+	color: #999;
+}
+
+#right{	
+}
+
+.tamanho-icones{
+	width: 32px;
+	height: 32px;
+	float: right;
+}
+
+h1{
+	font-size: 1.1em;
+}
+
