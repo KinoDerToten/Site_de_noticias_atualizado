@@ -21,7 +21,7 @@ body{
 }
 
 
-#date{
+#date, #tag{
 	float: left;
 }
 
@@ -84,6 +84,7 @@ a{
 .font{
 	font-size: 0.9em;
 }
+
 /*fechamento das formatações gerais*/
 
 /*
@@ -93,9 +94,9 @@ a{
 
 
 #area-principal{
-	border: 1px solid purple;
 	width: 700px;
-	margin-top: 20px;
+	margin: 20px auto 0 ;
+	font-size: 17px;
 }
 
 #redator-sociais{
@@ -103,8 +104,9 @@ a{
 	margin-bottom: 20px;
 }
 
-#policia a:link, #policias a:visited{
+#policia a:link, #policia a:visited{
 	margin-top: 25px;
+	margin-left: 576px;
 	display: inline-block;
 	background: red;
     color: white;
@@ -130,3 +132,8 @@ h1{
 	font-size: 1.1em;
 }
 
+#tag a:link, #tag a:visited{
+	background: gray;
+	padding: 0px 2px;
+	margin-right: 18px;
+}
