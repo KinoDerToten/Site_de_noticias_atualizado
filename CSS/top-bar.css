@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	font-size: 62.5%
+}
+
+body{
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 1.4em;
+	text-rendering: geometricPrecision;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+/************top-bar***************/
+.social-icons_search-bar{
+	float: right;
+}
+
+.date{
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+.container{
+	width: 1200px;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+.logo-bar{
+	background: red;
+}
+
+.menu-bar{
+	border-top: 1px solid white;
+	background: red;
+	height: 44px;
+}
+
+.menu-bar a:link, a:visited{
+	padding: 10px 10px 0px 12px;
+}
+
+.menu-bar a:hover{
+	background: white;
+	color: red;
+	padding: 10px 10px 10px 12px;
+}
+/***********************************/
+
+.principal{
+	margin: 0 auto;
+	width: 760px;
+	font-size: large;
+}
+
+.policia{
+	background: red;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 3px 10px;
+	margin: 20px 1230px 20px 554px;
+}
+
+.autor{
+	font-size: 1.2rem;
+	color: #999;
+	float: left;
+	padding-bottom: 16px;
+}
+
+.redes-sociais{
+	float: right;
+	padding-bottom: 16px;
+}
+
+p{
+	margin: 16px 0;
+	line-height: 1.5em;
+	font-size: 100%;
+}
+
+h1{
+	font-size: 2rem;
+}
+
+
+
+
+
+
